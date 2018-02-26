@@ -11,7 +11,7 @@ And then populate those results on the page using the jQuery 'append' function
 */
 
 var app = {
-	wikiURL: "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=",
+	wikiURL: "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=",
 
 	initialize: function() {
 		//Use jQuery to assign a callback function when the 'search' button is clicked
